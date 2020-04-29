@@ -1,2 +1,4 @@
 # ITPUP
-https://notebooks.gesis.org/binder/v2/gh/mosesmiller/ITPUP/f3f797ee7d4e9ee3ae4e498ee6222b359ede29bd
+.. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/mosesmiller/ITPUP/master?filepath=https%3A%2F%2Fgithub.com%2Fmosesmiller%2FITPUP%2Fblob%2Fmaster%2FtestGithub.ipynb
+ 
