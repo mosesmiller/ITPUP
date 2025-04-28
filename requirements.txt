@@ -1,0 +1,4 @@
+﻿streamlit>=1.34
+pandas
+matplotlib
+seaborn
