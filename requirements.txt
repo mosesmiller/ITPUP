@@ -1,4 +1,5 @@
-﻿streamlit>=1.34
+streamlit>=1.34
 pandas
 matplotlib
 seaborn
+scikit-learn
