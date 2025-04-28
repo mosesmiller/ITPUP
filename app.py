@@ -7,6 +7,10 @@ Streamlit + Seaborn demo on the *tips* dataset
 """
 
 import streamlit as st
+
+# ── MUST be first Streamlit command ───────────────────────────
+st.set_page_config(page_title="Tips demo", layout="centered")
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -42,7 +46,6 @@ tips = load_tips()
 # ──────────────────────────────────────────────────────────────
 # 2. Streamlit layout
 # ──────────────────────────────────────────────────────────────
-st.set_page_config(page_title="Tips demo", layout="centered")
 st.title("Seaborn × Streamlit – *tips* dataset")
 
 plot_kind = st.sidebar.selectbox(
